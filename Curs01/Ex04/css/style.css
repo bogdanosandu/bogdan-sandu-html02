@@ -1,5 +1,33 @@
 body {
   background: red;
+  color: #ffffff;
+}
+
+.header .header-top {
+  margin: 12px;
+}
+
+.header .header-top .header-controls {
+  font-size: 12px;
+}
+
+.header .header-top {
+  margin: 12px;
+}
+.header .header-top .header-controls {
+  font-size: 12px;
+}
+.header .header-top .header-controls ul li a {
+  color: blue;
+}
+.header .header-top .header-controls ul li a:hover {
+  color: red;
+}
+.header .header-top .header-controls ul li a span > span {
+  font-weight: bold;
+}
+.header .header-bottom nav ul {
+  margin: 12px;
 }
 
 /*# sourceMappingURL=style.css.map */

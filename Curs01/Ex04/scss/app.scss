@@ -1,3 +1,52 @@
 body {
   background: red;
+  color: #ffffff;
+}
+
+// regular CSS:
+.header .header-top {
+  margin: 12px;
+}
+
+.header .header-top .header-controls {
+  font-size: 12px;
+}
+
+// sassy css
+// sintactly awesome stylesheets
+// scss -> sassy css
+.header {
+  .header-top {
+    margin: 12px;
+
+    .header-controls {
+      font-size: 12px;
+
+      ul {
+        li {
+          a {
+            color: blue;
+
+            &:hover {
+              color: red;
+            }
+
+            span {
+              & > span {
+                font-weight: bold;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .header-bottom {
+    nav {
+      ul {
+        margin: 12px;
+      }
+    }
+  }
 }
