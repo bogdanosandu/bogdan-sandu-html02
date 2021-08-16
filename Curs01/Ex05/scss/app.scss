@@ -41,3 +41,22 @@ ul {
 //     width: 100%;
 //   }
 // }
+
+ol {
+  a {
+    &:hover {
+      color: magenta;
+    }
+
+    &:active {
+      color: pink;
+    }
+
+    &:visited {
+      color: lightcoral;
+    }
+  }
+}
+.all-visited a {
+  text-decoration: line-through;
+}

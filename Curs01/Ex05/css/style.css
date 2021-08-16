@@ -28,4 +28,18 @@ ul a:visited {
   width: 100%;
 }
 
+ol a:hover {
+  color: magenta;
+}
+ol a:active {
+  color: pink;
+}
+ol a:visited {
+  color: lightcoral;
+}
+
+.all-visited a {
+  text-decoration: line-through;
+}
+
 /*# sourceMappingURL=style.css.map */

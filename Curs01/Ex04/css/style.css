@@ -17,9 +17,6 @@ body {
 .header .header-top .header-controls {
   font-size: 12px;
 }
-.header .header-top .header-controls ul li a {
-  color: blue;
-}
 .header .header-top .header-controls ul li a:hover {
   color: red;
 }
