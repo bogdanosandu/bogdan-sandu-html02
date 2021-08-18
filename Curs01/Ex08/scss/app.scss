@@ -37,3 +37,36 @@
 
   background-color: peru;
 }
+
+.circles {
+  width: 80%;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin: auto;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  background-color: brown;
+  border-radius: 100%;
+}
+
+.circle-red {
+  @extend .circle;
+
+  background-color: red;
+}
+
+.circle-green {
+  @extend .circle;
+
+  background-color: green;
+}
+
+.circle-blue {
+  @extend .circle;
+
+  background-color: blue;
+}
