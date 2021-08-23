@@ -24,6 +24,12 @@ $spacings: (
   'lg': 32px,
 );
 
+@each $size, $value in $paddings {
+  .p-#{$size} {
+    padding: $value;
+  }
+}
+
 @each $size, $spacing in $spacings {
   .m-#{$size} {
     margin: $spacing;

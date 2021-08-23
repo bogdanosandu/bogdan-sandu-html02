@@ -18,6 +18,12 @@
   }
 }
 
+@for $i from 0 through 5 {
+  .box-#{2*$i + 1}0 {
+    background-color: gray;
+  }
+}
+
 @for $i from 1 to 6 {
   .box-0#{$i} {
     width: 150px + ($i - 1) * 5;

@@ -21,3 +21,18 @@
     }
   }
 }
+@for $i from 1 to 10 {
+  .box-0#{$i} {
+    border-width: #{$i}px;
+  }
+  @for $i from 1 through 9 {
+    @if $i % 2 == 0 {
+      .box-#{$i} {
+        background-color: gray;
+      }
+    } @else {
+      .box-#{$i} {
+        border: 10px dotted red;
+      }
+    }
+  }
