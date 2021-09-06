@@ -37,5 +37,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "json.schemas": [],
-  "javascript.updateImportsOnFileMove.enabled": "always"
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "cSpell.words": [
+    "Numele",
+    "retetei"
+  ]
 }
