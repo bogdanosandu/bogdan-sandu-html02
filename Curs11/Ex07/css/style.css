@@ -62,4 +62,5 @@ body {
 .grid-item-4 {
   grid-column: 2 / span 3;
   grid-row: 2 / span 2;
+  opacity: 0.5;
 }
